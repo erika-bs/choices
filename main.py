@@ -1,6 +1,6 @@
 from Personagem import Personagem
 
-personagem = Personagem("teste")
+personagem = Personagem("James Dean",False,3)
 
-personagem.procurarSuporteTecnico(False)
+personagem.procurarSuporteTecnico()
 personagem.falarComTecnico()
